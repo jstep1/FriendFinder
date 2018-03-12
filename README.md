@@ -1,6 +1,6 @@
 # Friend Finder
 
-<img src = "images/home.png" style="height='20%'; width='20%'">
+<img src = "images/home.png">
 
 Welcome to Friend Finder! This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match:
 
