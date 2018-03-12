@@ -1,7 +1,7 @@
 var friendsArr = [{
-    name: "Jerry",
-    photo: "https://vignette.wikia.nocookie.net/tomandjerry/images/5/5f/JerryMouse.png/revision/latest?cb=20140723114908",
-    scores: [1, 2, 3, 4, 5, 4, 3, 2, 1, 2]
+    name: "Tom",
+    photo: "http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i80/tj_tom_180x180.png",
+    scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 }];
 
 module.exports = friendsArr;

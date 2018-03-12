@@ -7,7 +7,7 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function(req, res) {
-        var alike = -1;
+        var alike = 40;
         var match;
 
         for (var i=0; i < friends.length; i++) {
@@ -20,7 +20,7 @@ module.exports = function(app) {
 
             var score = arr.reduce((comp, total) => comp + total, 0);
 
-            if (score > alike) {
+            if (score <= alike) {
                 alike = score;
                 match = friends[i];
             }
